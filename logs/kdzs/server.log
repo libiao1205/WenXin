@@ -1,0 +1,30 @@
+2020-08-10 17:43:06,468  INFO Version:21 - HV000001: Hibernate Validator 6.0.18.Final
+2020-08-10 17:43:06,660  INFO Application:55 - Starting Application on DESKTOP-T5DOFAT with PID 63948 (E:\personWord\word\WenXin\server\zs.application\target\classes started by libiao in E:\personWord\word\WenXin\server)
+2020-08-10 17:43:06,661  INFO Application:655 - The following profiles are active: dev
+2020-08-10 17:43:07,431  INFO RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-08-10 17:43:07,452  INFO RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 17ms. Found 0 JDBC repository interfaces.
+2020-08-10 17:43:07,529  WARN ClassPathMapperScanner:44 - Skipping MapperFactoryBean with name 'userExtMapper' and 'com.sundeinfo.kd.zs.dao.UserExtMapper' mapperInterface. Bean already defined with the same name!
+2020-08-10 17:43:07,530  WARN ClassPathMapperScanner:44 - Skipping MapperFactoryBean with name 'userMapper' and 'com.sundeinfo.kd.zs.dao.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-08-10 17:43:07,530  WARN ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.sundeinfo.kd.zs.dao]' package. Please check your configuration.
+2020-08-10 17:43:07,804  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:43:07,808  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:43:07,811  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@9596ce8' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:43:07,812  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:43:07,817  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:43:08,038  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8089 (http)
+2020-08-10 17:43:08,137  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 1392 ms
+2020-08-10 17:43:08,870  INFO DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@599f1b7, org.springframework.security.web.context.SecurityContextPersistenceFilter@1788cb61, org.springframework.security.web.header.HeaderWriterFilter@5c8d58ed, org.springframework.security.web.authentication.logout.LogoutFilter@48d739f, com.sundeinfo.core.permission.strategy.token.AuthenticationTokenFilter@3c8a7e38, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c0b51da, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3dfd6220, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22791b75, org.springframework.security.web.session.SessionManagementFilter@285a4fe3, org.springframework.security.web.access.ExceptionTranslationFilter@691567ea, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2dfa02c1]
+2020-08-10 17:43:08,986  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 17:43:09,290  INFO ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'taskScheduler'
+2020-08-10 17:43:09,344  INFO TomcatWebServer:204 - Tomcat started on port(s): 8089 (http) with context path ''
+2020-08-10 17:43:09,346  INFO Application:61 - Started Application in 3.072 seconds (JVM running for 3.889)
+2020-08-10 17:43:24,366  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2020-08-10 17:43:24,373  INFO DispatcherServlet:547 - Completed initialization in 7 ms
+2020-08-10 17:43:24,461  INFO RequestHandler:84 - 请求:[POST] http://192.168.1.7:8089/kdzs/api/auth/login
+2020-08-10 17:43:24,501  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2020-08-10 17:43:24,598  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-08-10 17:43:24,632  INFO AuthenticationGetter:60 - ------Getting Security Context User[1] ------
+2020-08-10 18:09:43,637  INFO RequestHandler:84 - 请求:[POST] http://192.168.1.7:8089/kdzs/api/auth/login
+2020-08-10 18:09:43,641  INFO AuthenticationGetter:60 - ------Getting Security Context User[1] ------
+2020-08-10 18:11:15,008  INFO RequestHandler:84 - 请求:[POST] http://192.168.1.7:8089/kdzs/api/auth/login
+2020-08-10 18:11:15,012  INFO AuthenticationGetter:60 - ------Getting Security Context User[1] ------
